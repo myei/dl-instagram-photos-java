@@ -26,6 +26,9 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class View extends JPanel {
+	
+	private static final long serialVersionUID = 1L;
+	
 	private JTextField urlRequest = new JTextField(30);
 	private JLabel imgContainer = new JLabel();
 	private JLabel errorMsg = new JLabel();
